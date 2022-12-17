@@ -1,0 +1,22 @@
+- name: Dr. Ilaria Colazzo
+  photo: ilariacolazzo.jpg
+  info: Postdoctoral Research Fellow, University of Exeter
+  email: I.Colazzo@exeter.ac.uk
+  github: https://github.com/ilafly
+  researchgate: https://www.researchgate.net/profile/Ilaria-Colazzo
+  scholar: https://scholar.google.it/citations?user=upy1OLEAAAAJ&hl=it
+  cv: cv/cv.pdf
+  number_educ: 6
+  education1: (2021- ) Postdoctoral Research Fellow, University of Exeter, Exeter, UK
+  education2: (2019-2021) Postdoctoral Researcher in Mathematics, Vrije Universiteit Brussel, Brussels, Belgium
+  education3: (2017-2018) Postdoctoral Researcher in Mathematics <br> University of Salento
+  education4: (2017) Ph.D., Mathematics and Informatics<br> University of Salento and University of Basilicata, Lecce, Italy
+  education5: (2012) M.S., Mathematics<br> University of Salento, Lecce, Italy
+  education6: (2009) B.S., Mathematics <br>
+    University of Salento, Lecce, Italy
+  education1short: (2021- ) Postdoc, Exeter
+  education2short: (2019-21) Postdoc, VUB
+  education3short: (2017-8) Postdoc, UniSalento
+  education4short: (2017) Ph.D. Maths, UniSalento
+  education5short: (2012) M.S. Maths, UniSalento
+  education6short: (2009) B.S. Maths, UniSalento
