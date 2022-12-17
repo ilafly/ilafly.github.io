@@ -60,7 +60,7 @@ kramdown:
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
 
-plugins: ['jekyll/Rakefile']
+plugins: ['Rakefile']
 
 scholar:
 
