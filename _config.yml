@@ -61,7 +61,7 @@ kramdown:
 
 
 # plugins: ['jekyll/scholar']
-Rakefile
+rake deploy_github 
 
 scholar:
 
