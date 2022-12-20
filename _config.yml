@@ -42,17 +42,13 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-# Google analytics ID: Remove or use your own!
-google_analytics: UA-167467135-1
-google_analytics_4: G-02KDGRRB2T
-google_tag_manager: GTM-TZ9Z7HZ
 
 # Site Author
 author:
-  name             : "Aditya Sundar"
-  avatar           : "Aditya.jpg"
-  bio              : "Ph.D student in Materials Science"
-  location         : "University of Michigan, USA"
+  name             : "Ilaria Colazzo"
+  avatar           : "ilariacolazzo.jpg"
+  bio              : "Postdoctoral Research Fellow"
+  location         : "University of Exeter, UK"
   links:
     - label: "Made Mistakes"
       icon: "fa fa-home"
@@ -66,27 +62,29 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/mmistakes"
-  employer         : 
+  employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=k-nqUdgAAAAJ&view_op=list_works&sortby=pubdate"
+  googlescholar    : ""
   email            : "aditya.1094@gmail.com?cc=adisun@umich.edu"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
-  bitbucket        : 
+  bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "adisun94"
+  github           : "https://github.com/ilafly"
   google_plus      :
   keybase          :
   #instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "aditya-sundar-b7a966120/"
-  orcid            : #"http://orcid.org/yourorcidurl"
+  # linkedin         : "aditya-sundar-b7a966120/"
+  orcid            : "https://orcid.org/0000-0002-2713-0409"
   pinterest        :
+  researchgate     : "https://www.researchgate.net/profile/Ilaria-Colazzo"
+  scholar          : "https://scholar.google.it/citations?user=upy1OLEAAAAJ&hl=it"
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
@@ -100,32 +98,26 @@ author:
 
 
 # Footer info
-#about: >
-#    Prof. Spencer H. Bryngelson<br/>
-#    College of Computing, <a href="https://cse.gatech.edu/" target="_blank">CSE</a><br/>
-#    Georgia Institute of Technology
+affiliation: >
+    Dr. Ilaria Colazzo<br/>
+    <a href="https://www.exeter.ac.uk/" target="_blank">University of Exeter</a><br/>
+    <a href="https://mathematics.exeter.ac.uk/">Department of Mathematics</a><br/>
+    Exeter, UK
 
-#coordinates: >
-#  <a href="https://codatechsquare.com/" target="_blank">CODA</a><br/>
-#  756 W Peachtree St<br/>
-#  Atlanta, GA 30332
+location: >
+  College of Engineering, Mathematics and Physical Sciences, <br/>
+  University of Exeter, Harrison Building, <br/>
+  North Park Road, Exeter, EX4 4QF
 
-#information: >
-#    <a href="mailto:spencer@caltech.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Spencer via email</a> <br/>
-#    <a href="/aboutwebsite.html"><i class="fa fa-github fa-1x"></i> Use my site as a template!</a> <br/>
-#    <a href="/vacancies.html"><i class="fa fa-users fa-1x"></i> Explore openings</a>
+contact: >
+    <a href="mailto:I.Colazzo@exeter.ac.uk" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact me via email</a> <br/>
 
 
 # Pages shown in navbar
 nav_pages:
-  - name: bio
-  - name: experience 
-# - name: team
+  - name: about
   - name: publications
-  - name: research
-# - name: software
-  - name: projects
-# - name: about
+  - name: talks
   - name: teaching
 
 include:
@@ -153,12 +145,10 @@ kramdown:
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
 
-plugins: ['jekyll/scholar']
-
 scholar:
 
-  last_name: Sundar
-  first_name: [Aditya]
+  last_name: Colazzo
+  first_name: [Ilaria]
 
   style: shb
   locale: en
@@ -188,4 +178,3 @@ exclude:
   - switch_theme.sh
   - tags
   - Rakefile
-
