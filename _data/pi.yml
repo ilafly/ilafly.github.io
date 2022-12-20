@@ -1,22 +1,17 @@
-- name: Dr. Ilaria Colazzo
-  photo: ilariacolazzo.jpg
-  info: Postdoctoral Research Fellow, University of Exeter
-  email: I.Colazzo@exeter.ac.uk
-  github: https://github.com/ilafly
-  researchgate: https://www.researchgate.net/profile/Ilaria-Colazzo
-  scholar: https://scholar.google.it/citations?user=upy1OLEAAAAJ&hl=it
+- name: Aditya Sundar
+  photo: Aditya.jpg
+  info: <i>Postdoctoral Researcher in Materials Science</i>
+  email: asundar@anl.gov
+  github: https://github.com/adisun94
+  scholar: https://scholar.google.com/citations?user=k-nqUdgAAAAJ&hl=en&authuser=1
+  linkedin: https://scholar.google.com/citations?user=k-nqUdgAAAAJ&hl=en&authuser=1
   cv: cv/cv.pdf
-  number_educ: 6
-  education1: (2021- ) Postdoctoral Research Fellow, University of Exeter, Exeter, UK
-  education2: (2019-2021) Postdoctoral Researcher in Mathematics, Vrije Universiteit Brussel, Brussels, Belgium
-  education3: (2017-2018) Postdoctoral Researcher in Mathematics <br> University of Salento
-  education4: (2017) Ph.D., Mathematics and Informatics<br> University of Salento and University of Basilicata, Lecce, Italy
-  education5: (2012) M.S., Mathematics<br> University of Salento, Lecce, Italy
-  education6: (2009) B.S., Mathematics <br>
-    University of Salento, Lecce, Italy
-  education1short: (2021- ) Postdoc, Exeter
-  education2short: (2019-21) Postdoc, VUB
-  education3short: (2017-8) Postdoc, UniSalento
-  education4short: (2017) Ph.D. Maths, UniSalento
-  education5short: (2012) M.S. Maths, UniSalento
-  education6short: (2009) B.S. Maths, UniSalento
+  education1: (2021- ) Assistant Professor of <a href="https://cse.gatech.edu/" target="_blank">CSE</a>, Georgia Tech
+  education2: (2018-21) Senior Postdoc, Caltech (with <a href="https://colonius.caltech.edu" target="_blank">Tim Colonius</a>)
+  education3: (2019) Visiting Researcher, MIT (with <a href="http://sandlab.mit.edu" target="_blank">Themis Sapsis</a>)
+  education4: (2017-8) Postdoc, <a href="https://xpacc.illinois.edu/" target="_blank">XPACC</a>
+  education5: (2013-7) M.S + Ph.D., UIUC (with <a href="https://aerospace.illinois.edu/directory/profile/jbfreund" target="_blank">Jon Freund</a>)
+  education6: (2015) M.S. Theoretical and Applied Mechanics<br> University of Illinois at Urbana-Champaign
+    <br>(with certificate in <a href="https://cse.illinois.edu/" target="_blank">Computational Science & Engineering</a>)
+  education7: (2013) B.S. Mechanical Engineering, B.S. Mathematics<br>
+    University of Michigan-Dearborn

@@ -45,7 +45,7 @@ iframe {
 <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-SoftX-20.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Author:</b>
-<i>S. H. Bryngelson</i>
+<i>S. H. Bryngelson, Q. Wang, E. Cisneros</i>
 
 <b>QBMMlib</b> is an <a href="https://github.com/sbryngelson/QBMMlib" target="_blank">open source Mathematica package</a> for solving populating balance equations with quadrature-based moment methods (QBMMs).
 QBMMs are used for fully-coupled disperse flow and combustion problems.
@@ -138,7 +138,7 @@ The code base is object-oriented and modular, assisting future development.
 <a href="https://xpacc-dev.bitbucket.io/PlasCom2/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
 
 <b>Authors:</b>
-<i>M. Campbell, E. Cisneros, S. H. Bryngelson, D. Buchta, M. Anderson, M. Diener, M. Smith</i>
+<i>M. Campbell, E. Cisneros, J. Wang, S. H. Bryngelson, D. Buchta, M. Anderson, M. Diener, M. Smith, and more...</i>
 
 PlasCom2 is a variable-order, single- and multi-block (overset), compressible Navier--Stokes solver. 
 It supports curvilinear domains discretized by multiple, overlapping block-structured grids.
