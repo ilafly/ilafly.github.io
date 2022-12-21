@@ -3,7 +3,7 @@ title: Ilaria Colazzo
 email: I.Colazzo@exeter.ac.uk
 description: Postdoctoral research fellow
 baseurl: ""
-url: ""
+url: "ilafly.github.io"
 
 
 # # Google analytics ID: Remove or use your own!
@@ -59,6 +59,34 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
+
+plugins: ['jekyll/scholar']
+
+scholar:
+
+  last_name: Colazzo
+  first_name: [Ilaria]
+
+  style: shb
+  locale: en
+
+  source: /cv/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  sort_by: year, month
+  order: descending
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+  bibliography_list_attributes:
+    reversed: "reversed"
 
 exclude:
   - Gemfile
