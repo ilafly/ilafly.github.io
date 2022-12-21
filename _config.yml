@@ -1,39 +1,40 @@
 # Site settings
-title: Pedro Gomes 
-email: pedro.gomes19@ucl.ac.uk
-description: Professional webpage of Pedro Gomes
+title: Ilaria Colazzo
+email: I.Colazzo@exeter.ac.uk
+description: Postdoctoral research fellow
 baseurl: ""
 url: ""
 
 
-# Google analytics ID: Remove or use your own!
+# # Google analytics ID: Remove or use your own!
 # google_analytics: UA-167467135-1
 # google_analytics_4: G-02KDGRRB2T
 # google_tag_manager: GTM-TZ9Z7HZ
 
 # Footer info
 affiliation: >
-    Pedro Gomes<br/>
-    PhD student<br/>
-    University College of London
+    Dr. Ilaria Colazzo<br/>
+    <a href="https://www.exeter.ac.uk/" target="_blank">University of Exeter</a><br/>
+    <a href="https://mathematics.exeter.ac.uk/">Department of Mathematics</a><br/>
+    Exeter, UK
 
 location: >
-  University College of London<br/>
-  London, United Kingdom
+  College of Engineering, Mathematics and Physical Sciences, <br/>
+  University of Exeter, Harrison Building, <br/>
+  North Park Road, Exeter, EX4 4QF
 
 contact: >
-    <a href="mailto:pedro.gomes19@ucl.ac.uk" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Pedro via email</a> <br/>
-   
+    <a href="mailto:I.Colazzo@exeter.ac.uk" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact me via email</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
   - name: about
-  - name: research
   - name: publications
-#  - name: talks
-#  - name: software
+  - name: talks
+  # - name: research
+  # - name: software
 # - name: team
-# - name: teaching
+  - name: teaching
 
 include:
   - .htaccess
@@ -63,8 +64,8 @@ plugins: ['jekyll/scholar']
 
 scholar:
 
-  last_name: Gomes
-  first_name: [Pedro M.]
+  last_name: Colazzo
+  first_name: [Ilaria]
 
   style: shb
   locale: en
@@ -93,4 +94,3 @@ exclude:
   - update_boostrap.sh
   - switch_theme.sh
   - tags
-  - Rakefile

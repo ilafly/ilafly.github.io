@@ -5,7 +5,7 @@ sitemap: false
 permalink: /about/
 ---
 
-## About 
+## About
 
 {% for member in site.data.pi %}
 <div class="jumbotron">
@@ -62,6 +62,29 @@ permalink: /about/
 </div>
 {% endfor %}
 
+{% if site.data.organising %}
+<div class="jumbotron">
+### Organised seminars and conferences
+<ul>
+{% for conference in site.data.organising %}
+ <!-- <li> {{ conference.when }}, {{conference.name}} ({{conference.where}}, {{conference.what}}) </li> -->
+ <li> {{ conference.when }}, <a href="{{conference.url}}" target="_blank">{{conference.name}}</a>,  {{conference.where}}, {{conference.what}} (with {{conference.with}})  </li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
+{% if site.data.visits %}
+<div class="jumbotron">
+### Research Visits
+<ul>
+{% for visits in site.data.visits %}
+ <li> {{ visits.name | replace: "-","&#8211;"}} </li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+
 {% if site.data.grants %}
 <div class="jumbotron">
 ### Grants
@@ -73,28 +96,9 @@ permalink: /about/
 </div>
 {% endif %}
 
-{% if site.data.awards %}
-<div class="jumbotron">
-### Awards
-<ul>
-{% for award in site.data.awards %}
- <li> {{ award.name | replace: "-","&#8211;"}} </li>
-{% endfor %}
-</ul>
-</div>
-{% endif %}
 
 
-{% if site.data.committes %}
-<div class="jumbotron">
-### Committes
-<ul>
-{% for committe in site.data.committes %}
- <li> {{ committe.name | replace: "-","&#8211;"}} </li>
-{% endfor %}
-</ul>
-</div>
-{% endif %}
+
 
 
 {% if site.data.collaborators %}
@@ -109,6 +113,9 @@ permalink: /about/
 {% endif %}
 
 
-
-
-
+<!-- <div class="jumbotron">
+  <h4>Sponsors</h4>
+  <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
+ {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/logopic/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
+  </div>
+</div> -->
