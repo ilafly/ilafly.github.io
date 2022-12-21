@@ -1,6 +1,7 @@
 ---
 ---
 
+
 <style>
 .btn{
     margin-bottom:5px;
@@ -22,7 +23,7 @@ pre{
 
 
 <div class="text-justify">
-{{reference }}</div>
+{{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' | replace_first: 'Bryngelson SH', '<b>Bryngelson SH</b>' | replace_first: 'Bryngelson S', '<b>Bryngelson S</b>'}}</div>
 
 {% assign bibtest = false %}
 {% if entry.file %}

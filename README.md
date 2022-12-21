@@ -1,20 +1,35 @@
-# Aditya Sundar, Postdoctoral Researcher, Argonne National Laboratory
+# A website template for academics
 
-**Forked and adapted from [https://comp-physics.group/](https://comp-physics.group/)
+## Users
 
-**Note: This webpage has been upgraded to use Jekyll plugins. If you are using Github pages you will have to build the website with the Rakefile in the project root directory! My Rakefile is adopted from ones like [this.](https://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html)**
+Some users:
+* [Ethan Pickering](https://ethan-pickering.github.io/)
+* [Lalit M. Pant](https://home.iitk.ac.in/~lalit/)
+* [Mohammad Afzal Shadab](https://mashadab.github.io/)
+* [Michael Berhanu](http://www.msc.univ-paris-diderot.fr/~berhanu/)
+* [Muhammad Haseeb Arshad](https://muhammadhaseeb.info//)
+* [Spike Research Group](https://spike.doc.ic.ac.uk/)
+* [Computational Physics @ GT](https://comp-physics.group) (my research group webpage)
+* [Nitzan Farhi](https://nitzanfarhi.github.io/)
+* [Aditya Sundar](https://adisun94.github.io/)
+* [Cheng-Chun (Barry) Lee](https://barrylee36.github.io/)
+* [ACME Group @ CMU](https://acme-group-cmu.github.io/ACMEgroup/)
 
-This is my statically-generated Jekyll/Liquid/Bootstrap-based website.
+## Introduction 
+
+This is a statically-generated Jekyll/Liquid/Bootstrap-based website template for academics.
 I started with the [Allan lab](https://www.allanlab.org/) webpage and modified it into a personal academic webpage that met my requirements.
 I worked in a unique set of the features that I desired and could not find in publicly available templates elsewhere.
 Some examples are:
 
 * Automatically-generated buttons for DOI/PDF/ARXIV/BIB/Abstract information
-  * via jekyll scholar
+  * via Jekyll Scholar
 * Bibliography information and abstracts open in drown down wells via buttons
 * Fontawesome icons (email, CV, Google scholar, ResearchGate, GitHub, etc.)
 * Dark color scheme via Bootswatch
 * Consistent and attractive `About me` page
+* CV that uses the same `bib` file as Jekyll scholar (with appropriate style files for each)
+  * no more keeping multiple bibliographies updated!
 
 I encourage the use of this webpage as a template for your own academic website.
 The remainder of this document describes how to do this.
@@ -33,6 +48,10 @@ Broadly speaking, there are three steps:
 * Your site is now hosted locally at `localhost:4000`, which you can access with your web browser.
    * It will be automatically re-built as you save changes to the files it contains.
    Refreshing your web browser reveals these changes.
+
+Note:
+* This webpage uses Jekyll plugins like Jekyll Scholar to automatically build your bibliography. 
+  If you are using Github pages then you will have to build the site with the `Rakefile` in the root directory of the source branch.
 
 ## Customization
 
@@ -123,20 +142,14 @@ Some of these are viable for very simple academic pages with little tuning:
 * [academicpages](https://academicpages.github.io/)
 
 However, they do not natively include many of the features I list at the top.
-For this reason, I decided to build my own theme.
+For this reason, I decided to construct my own.
 
 ## Acknowledgment
 
 I credit the [Allen Lab](https://www.allanlab.org/) for creating a beautiful academic research group webpage.
 Many parts of this site were adopted or copied from their laboratory webpage.
-I acknowledge 3Blue1Brown for the pi logo in the `team` page.
 
 ## License
 
-Copyright 2020, Spencer H. Bryngelson
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Copyright 2021, Spencer H. Bryngelson and controlled via the MIT license.
+You can copy and mess with this template.

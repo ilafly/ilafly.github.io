@@ -1,129 +1,43 @@
-# Site Settings
-locale                   : "en-US"
-title                    : "Aditya Sundar"
-title_separator          : "-"
-name                     : &name "Aditya Sundar"
-description              : &description "personal description"
-url                      : https://adisun94.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "adisun94/adisun94.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+# Site settings
+title: Pedro Gomes 
+email: pedro.gomes19@ucl.ac.uk
+description: Professional webpage of Pedro Gomes
+baseurl: ""
+url: ""
 
 
-# Site Author
-author:
-  name             : "Ilaria Colazzo"
-  avatar           : "ilariacolazzo.jpg"
-  bio              : "Postdoctoral Research Fellow"
-  location         : "University of Exeter, UK"
-  links:
-    - label: "Made Mistakes"
-      icon: "fa fa-home"
-      url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
-  employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : ""
-  email            : "aditya.1094@gmail.com?cc=adisun@umich.edu"
-  # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "https://github.com/ilafly"
-  google_plus      :
-  keybase          :
-  #instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  # linkedin         : "aditya-sundar-b7a966120/"
-  orcid            : "https://orcid.org/0000-0002-2713-0409"
-  pinterest        :
-  researchgate     : "https://www.researchgate.net/profile/Ilaria-Colazzo"
-  scholar          : "https://scholar.google.it/citations?user=upy1OLEAAAAJ&hl=it"
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  #twitter          : #"replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
+# Google analytics ID: Remove or use your own!
+# google_analytics: UA-167467135-1
+# google_analytics_4: G-02KDGRRB2T
+# google_tag_manager: GTM-TZ9Z7HZ
 
 # Footer info
 affiliation: >
-    Dr. Ilaria Colazzo<br/>
-    <a href="https://www.exeter.ac.uk/" target="_blank">University of Exeter</a><br/>
-    <a href="https://mathematics.exeter.ac.uk/">Department of Mathematics</a><br/>
-    Exeter, UK
+    Pedro Gomes<br/>
+    PhD student<br/>
+    University College of London
 
 location: >
-  College of Engineering, Mathematics and Physical Sciences, <br/>
-  University of Exeter, Harrison Building, <br/>
-  North Park Road, Exeter, EX4 4QF
+  University College of London<br/>
+  London, United Kingdom
 
 contact: >
-    <a href="mailto:I.Colazzo@exeter.ac.uk" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact me via email</a> <br/>
-
+    <a href="mailto:pedro.gomes19@ucl.ac.uk" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Pedro via email</a> <br/>
+   
 
 # Pages shown in navbar
 nav_pages:
   - name: about
+  - name: research
   - name: publications
-  - name: talks
-  - name: teaching
+#  - name: talks
+#  - name: software
+# - name: team
+# - name: teaching
 
 include:
   - .htaccess
   - _pages
-  - files
 
 # Conversion
 markdown: kramdown
@@ -145,10 +59,12 @@ kramdown:
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
 
+plugins: ['jekyll/scholar']
+
 scholar:
 
-  last_name: Colazzo
-  first_name: [Ilaria]
+  last_name: Gomes
+  first_name: [Pedro M.]
 
   style: shb
   locale: en
