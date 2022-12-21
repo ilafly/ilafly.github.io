@@ -68,6 +68,7 @@ scholar:
 include:
   - .htaccess
   - _pages
+  - Gemfile
 
 # Conversion
 markdown: kramdown
@@ -90,7 +91,6 @@ kramdown:
 
 
 exclude:
-  - Gemfile
   - Gemfile.lock
   - update_boostrap.sh
   - switch_theme.sh
