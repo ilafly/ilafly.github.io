@@ -1,4 +1,4 @@
-# From: https://github.com/ainc/awesomeinc2013/blob/master/Rakefile 
+# From: https://github.com/ainc/awesomeinc2013/blob/master/Rakefile
 
 require "rubygems"
 require "tmpdir"
