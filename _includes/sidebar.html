@@ -57,6 +57,8 @@
 {% endfor %}
 </div>
 
+
+
 <div class="jumbotron">
   <h4>News</h4>
 
@@ -64,7 +66,54 @@
   <b>{{ article.date }}</b>
     <p>{{ article.headline }}</p>
   {% endfor %}
-  
+
   <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h5>
 
+</div>
+
+<div class="jumbotron">
+  <h4>Research Interests</h4>
+  {% for member in site.data.pi %}
+
+  <!-- <ul style="overflow: hidden"> -->
+  {% if member.number_researchintrests == 1 %}
+  <li> {{ member.ri1 | replace: "-","&#8211;"}} </li>
+  {% endif %}
+
+  {% if member.number_researchintrests == 2 %}
+  <p> {{ member.ri1 | replace: "-","&#8211;"}} <br>
+     {{ member.ri2 | replace: "-","&#8211;"}}  </p>
+  {% endif %}
+
+  {% if member.number_researchintrests == 3 %}
+  <p> {{ member.ri1 | replace: "-","&#8211;"}} <br>
+     {{ member.ri2 | replace: "-","&#8211;"}} <br>
+     {{ member.ri3 | replace: "-","&#8211;"}} </p>
+  {% endif %}
+
+  {% if member.number_researchintrests == 4 %}
+  <p> {{ member.ri1 | replace: "-","&#8211;"}} <br>
+   {{ member.ri2 | replace: "-","&#8211;"}} <br>
+   {{ member.ri3 | replace: "-","&#8211;"}} <br>
+   {{ member.ri4 | replace: "-","&#8211;"}} </p>
+  {% endif %}
+
+  {% if member.number_researchintrests == 5 %}
+  <p> {{ member.ri1 | replace: "-","&#8211;"}} <br>
+   {{ member.ri2 | replace: "-","&#8211;"}} <br>
+   {{ member.ri3 | replace: "-","&#8211;"}} <br>
+   {{ member.ri4 | replace: "-","&#8211;"}} <br>
+   {{ member.ri5 | replace: "-","&#8211;"}} </p>
+  {% endif %}
+
+  {% if member.number_researchintrests == 6 %}
+  <p> {{ member.ri1 | replace: "-","&#8211;"}} <br>
+   {{ member.ri2 | replace: "-","&#8211;"}} <br>
+   {{ member.ri3 | replace: "-","&#8211;"}} <br>
+   {{ member.ri4 | replace: "-","&#8211;"}} <br>
+   {{ member.ri5 | replace: "-","&#8211;"}} <br>
+   {{ member.ri6 | replace: "-","&#8211;"}} </p>
+  {% endif %}
+  <!-- </ul> -->
+{% endfor %}
 </div>

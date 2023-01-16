@@ -5,6 +5,9 @@
   github: https://github.com/ilafly
   researchgate: https://www.researchgate.net/profile/Ilaria-Colazzo
   scholar: https://scholar.google.it/citations?user=upy1OLEAAAAJ&hl=it
+  zbmath: https://zbmath.org/authors/?q=ilaria+colazzo
+  orcid: https://orcid.org/0000-0002-2713-0409
+  mathscinet: https://mathscinet.ams.org/mathscinet/MRAuthorID/1092159
   cv: cv/cv.pdf
   number_educ: 6
   education1: (2021- ) Postdoctoral Research Fellow, University of Exeter, Exeter, UK
@@ -20,3 +23,9 @@
   education4short: (2017) Ph.D. Maths, UniSalento
   education5short: (2012) M.S. Maths, UniSalento
   education6short: (2009) B.S. Maths, UniSalento
+  number_researchintrests: 5
+  ri1: Set-theoretical solutions of the Yang-Baxter equation
+  ri2: Skew braces, trusses and generalisations
+  ri3: Regular subgroups of the holomorph
+  ri4: Hopf-Galois extensions
+  ri5: Set-theoretical solutions of the pentagon equation

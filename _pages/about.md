@@ -68,7 +68,8 @@ permalink: /about/
 <ul>
 {% for conference in site.data.organising %}
  <!-- <li> {{ conference.when }}, {{conference.name}} ({{conference.where}}, {{conference.what}}) </li> -->
- <li> {{ conference.when }}, <a href="{{conference.url}}" target="_blank">{{conference.name}}</a>,  {{conference.where}}, {{conference.what}} (with {{conference.with}})  </li>
+
+  <li> {{ conference.when }}, {% if conference.url %} <a href="{{conference.url}}" target="_blank"> {% endif %}{{conference.name}}{% if conference.url %}</a>{% endif %},  {{conference.where}}, {{conference.what}} (with {{conference.with}})  </li>
 {% endfor %}
 </ul>
 </div>
@@ -79,7 +80,7 @@ permalink: /about/
 ### Research Visits
 <ul>
 {% for visits in site.data.visits %}
- <li> {{ visits.name | replace: "-","&#8211;"}} </li>
+ <li> {{ visits.name }} </li>
 {% endfor %}
 </ul>
 </div>
