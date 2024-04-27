@@ -8,8 +8,7 @@ authors:
 - Charlotte Verwimp
 date: '2023-08-01'
 publishDate: '2024-04-27T09:16:29.027869Z'
-publication_types:
-- ["article-journal"]
+publication_types: ["article-journal"]
 publication: '*International Mathematics Research Notices*'
 doi: 10.1093/imrn/rnad183
 abstract: It is proven that finite idempotent left non-degenerate set-theoretic solutions

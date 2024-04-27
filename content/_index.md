@@ -62,27 +62,22 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Postdoctoral Research Fellow
+          company: University of Exeter 
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Exeter, UK
+          date_start: '2021-01-06'
           date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+          description: 'Postdoctoral research fellow in the EPSRC project EP/V005995/1: Hopf-Galois Theory and Skew Braces (PI: Nigel Byott).'
+        - title: Postdoctoral Researcher in Mathematics
+          company: Vrije Universiteit Brussel
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Brussels, Belgium
+          date_start: '2019-10-01'
+          date_end: '2021-02-28'
+          description: 'Studied algebraic structures associated with discrete versions of some equations in mathematical physics, such as the Yang-Baxter equation and the Pentagon equation. In particular, we obtained a complete classification of all involutive solutions to the PE.'
     design:
       columns: '2'
   - block: accomplishments

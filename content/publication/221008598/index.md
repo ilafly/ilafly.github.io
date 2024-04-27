@@ -6,8 +6,7 @@ authors:
 - Marco Trombetti
 date: '2022-01-01'
 publishDate: '2024-04-27T09:16:29.035165Z'
-publication_types:
-- ["article-journal"]
+publication_types: ["article-journal"]
 publication: '*accepted for publication in <i>Publicacions Matemàtiques</i>*'
 doi: '2210.08598'
 abstract: 'If $(X,r)$ is a finite non-degenerate set-theoretic solution of the Yang--Baxter
