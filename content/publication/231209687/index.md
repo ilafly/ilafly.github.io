@@ -1,7 +1,7 @@
 ---
 title: Simple solutions of the Yang-Baxter equation
 authors:
-- Ilaria Colazzo
+- admin
 - Eric Jespers
 - Łukasz Kubat
 - Arne Van Antwerpen
